@@ -487,11 +487,11 @@ const Home = () => {
               le site.
             </p>
 
-            <div className="border-t border-gray-700 mt-6 pt-4">
+            {/* <div className="border-t border-gray-700 mt-6 pt-4">
               <p className="text-gray-400 text-center">
                 ____________________________________________________________________
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
