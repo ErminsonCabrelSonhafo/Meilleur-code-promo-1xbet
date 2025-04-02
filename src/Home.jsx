@@ -1,10 +1,11 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import image from "./assets/code_promo.jpg";
 
 // Données des codes promo
 const promoCodeData = {
-  mainCode: "1XWAP200",
+  mainCode: "KY800",
   yearDisplay: "2025",
   mainBonus: "130 €/$",
   casinoBonus: "1950 €/$ +150 tours gratuits",
@@ -208,7 +209,7 @@ const Home = () => {
             >
               <img
                 className="rounded-lg shadow-xl border border-gray-700 max-w-full h-auto"
-                src="https://files.fm/thumb_show.php?i=v4sz6u78ka"
+                src={image}
                 alt="Code Promo 1xBet"
               />
             </div>
@@ -486,12 +487,6 @@ const Home = () => {
               paramètres de votre navigateur en conséquence ou ne pas utiliser
               le site.
             </p>
-
-            {/* <div className="border-t border-gray-700 mt-6 pt-4">
-              <p className="text-gray-400 text-center">
-                ____________________________________________________________________
-              </p>
-            </div> */}
           </div>
         </div>
       </div>
